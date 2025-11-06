@@ -32,6 +32,7 @@ def send_mail(receiver,subject,body):
     email.set_content(body)
     server.send_message(email)
 
+
 def main_code():
     talking_tom("To whom do you want to send this email?")
     name=mic()
@@ -42,5 +43,6 @@ def main_code():
     body=mic()
     send_mail(receiver,subject,body)
     print('Your email has been sent!') 
+
 
 main_code()
