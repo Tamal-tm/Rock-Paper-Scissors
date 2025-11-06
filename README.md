@@ -6,10 +6,10 @@ A simple Python game where a player competes against the computer in the classic
 
 Features
 
-Player vs Computer gameplay
+-- Player vs Computer gameplay
 
-Randomized computer choices
+-- Randomized computer choices
 
-Immediate win/lose/tie result display
+-- Immediate win/lose/tie result display
 
-Simple, beginner-friendly code
+-- Simple, beginner-friendly code
