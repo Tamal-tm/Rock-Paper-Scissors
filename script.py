@@ -20,6 +20,7 @@ def mic():
 
 dict={"jojo":"tamalmallick23@gmail.com"} # Easy pronunciation name
 
+
 def send_mail(receiver,subject,body):
     server=smtplib.SMTP("smtp.gmail.com",587) # port nnumber
     server.starttls()
@@ -46,6 +47,7 @@ def main_code():
 
 
 main_code()
+
 
 
 
