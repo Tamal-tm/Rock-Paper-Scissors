@@ -3,7 +3,6 @@ import speech_recognition as sr
 from email.message import EmailMessage #To, from and Subject of the Message
 import pyttsx3
 
-
 listener=sr.Recognizer()
 tts=pyttsx3.Engine()
 
@@ -47,4 +46,5 @@ def main_code():
 
 
 main_code()
+
 
