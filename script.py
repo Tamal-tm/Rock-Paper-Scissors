@@ -18,6 +18,7 @@ def mic():
         print(data)
         return data.lower()
 
+
 dict={"jojo":"tamalmallick23@gmail.com"} # Easy pronunciation name
 
 def send_mail(receiver,subject,body):
@@ -46,6 +47,7 @@ def main_code():
 
 
 main_code()
+
 
 
 
