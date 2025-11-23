@@ -37,3 +37,16 @@ while True:
 
     print("The user's choice is", user_choice)
     print("Now it is Computer's turn")
+
+    computer=random.randint(1,3)
+
+    if computer==1:
+        comp_choice="Rock"
+
+    elif computer==2:
+        comp_choice="Paper"
+
+    else:
+        comp_choice="Scissors"
+
+    print("The computer's choise is", comp_choice)
