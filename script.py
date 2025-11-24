@@ -69,3 +69,17 @@ while True:
 
     print()
 
+    if result == "Tie":
+        ties += 1
+
+    elif result == user_choice:
+        print(name, "wins.")
+        user_score +=1
+
+    else:
+        print("Computer wins.")
+        comp_score +=1
+
+    print()
+
+
