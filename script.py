@@ -89,5 +89,7 @@ while True:
 
     print()
 
-
+    repeat=input("Do you want to play again?")
+    if repeat == "No" or repeat == "NO" or repeat =="N":
+        break
 
