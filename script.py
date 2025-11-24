@@ -50,3 +50,15 @@ while True:
         comp_choice="Scissors"
 
     print("The computer's choise is", comp_choice)
+
+    if (user_choice == "Paper" and comp_choice == "Rock") or (user_choice == "Rock" and comp_choice == "Paper"):
+        print("Paper wins.")
+        result="Paper"
+
+    elif(user_choice == "Scissors" and comp_choice == "Rock") or (user_choice == "Rock" and comp_choice == "Scissors"):
+        print("Rock wins.")
+        result="Rock"
+
+    elif(user_choice == "Paper" and comp_choice == "Scissors") or (user_choice == "Scissors" and comp_choice == "Paper"):
+        print("Scissors wins.")
+        result="Scissors"
