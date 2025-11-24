@@ -62,3 +62,10 @@ while True:
     elif(user_choice == "Paper" and comp_choice == "Scissors") or (user_choice == "Scissors" and comp_choice == "Paper"):
         print("Scissors wins.")
         result="Scissors"
+
+    else:
+        print("It's a tie.")
+        result="Tie"
+
+    print()
+
