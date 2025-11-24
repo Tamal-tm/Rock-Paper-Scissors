@@ -82,4 +82,12 @@ while True:
 
     print()
 
+    print("Scores are")
+    print(name,"'s score is", user_score)
+    print("Computer's score is", comp_score)
+    print("Ties are", ties)
+
+    print()
+
+
 
