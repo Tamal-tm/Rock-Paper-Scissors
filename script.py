@@ -93,3 +93,5 @@ while True:
     if repeat == "No" or repeat == "NO" or repeat =="N":
         break
 
+    print("Game Over")
+    print("Thanks for playing.")
